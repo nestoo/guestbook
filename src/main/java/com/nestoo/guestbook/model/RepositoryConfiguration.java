@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"com.nestoo.guestbook.model"})
+@EntityScan(basePackages = {"com.nestoo.guestbook"})
 @EnableJpaRepositories(basePackages = {"com.nestoo.guestbook.model"})
 @EnableTransactionManagement
 public class RepositoryConfiguration {
